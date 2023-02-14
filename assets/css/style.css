@@ -8,7 +8,11 @@
     color: blanchedalmond;
 }
 
-h1{
+/* <<TASK2>> 
+--------------------------------------------------------------------------
+*/
+
+/* h1{
     font-size: 4rem;
     display: block;
     height: auto;
@@ -114,4 +118,4 @@ a {
 .gallery :hover {
     height: 100%;
     transition: all 0.3s ease 0s;
-}
+} */
