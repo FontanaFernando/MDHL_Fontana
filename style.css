@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -62,7 +62,7 @@ nav a:hover {
     background-color: rgb(230, 195, 0);
     color: rgb(0, 0, 0);
 }
- 
+
 .banner {
     width: 100%;
     height: 25rem;
@@ -94,7 +94,7 @@ section {
 }
 
 .imageContainer1 {
-    width: 50%  ;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -117,12 +117,12 @@ p {
     padding: 1rem;
 }
 
-
 /* --------------------------------------------------------------
                        <<Galeria>>
 -------------------------------------------------------------- */
 
-.gallery, .gallery * {
+.gallery,
+.gallery * {
     box-sizing: border-box;
 }
 
@@ -142,7 +142,6 @@ p {
     height: 100%;
     transition: all 0.3s ease 0s;
 }
-
 
 /* ----------------------------------------------------------------------------
                                 <<Tabla>>
@@ -179,6 +178,11 @@ td {
     justify-content: space-between;
 }
 
+td a {
+    text-decoration: none;
+    color: rgb(250, 225, 0);
+}
+
 /* -----------------------------------------------------------------------------
                                 <<Lista>>
 ----------------------------------------------------------------------------- */
@@ -199,9 +203,113 @@ h5 {
     padding: 1.5rem;
 }
 
-/* --------------------------------------------------------------------------
-                                <<TASK2>> 
--------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+                                <<Mapas>>
+----------------------------------------------------------------------------- */
+
+.mapsContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.mapsContainer div {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.maps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -----------------------------------------------------------------------------
+                                <<Formulario>>
+----------------------------------------------------------------------------- */
+
+form {
+    width: 80%;
+    height: auto;
+    padding-top: 2rem;
+}
+
+.formName {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem;
+    border-style: none;
+}
+
+.formName label {
+    padding: 1rem;
+}
+
+.formName>div {
+    padding: 1rem;
+}
+
+.closestSchool {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem;
+    border-style: none;
+}
+
+.closestSchool label {
+    padding: 1rem;
+}
+
+.formPosition {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem;
+    border-style: none;
+}
+
+.formPosition label {
+    padding: 1rem;
+}
+
+.unifSize {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem;
+    border-style: none;
+}
+
+.unifSize label {
+    padding: 1rem;
+}
+
+.permToPlay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem;
+    border-style: none;
+}
+
+.permToPlay label {
+    padding: 1rem;
+}
+
+/* -----------------------------------------------------------------------------
+                                <<TASK2>>
+----------------------------------------------------------------------------- */
 
 /* h1{
     font-size: 4rem;
